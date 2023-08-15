@@ -2,7 +2,6 @@ from importlib.resources import as_file, files, Package
 
 from clvm_rs import Program
 
-
 try:
     from runtime_builder import build_on_demand
 except ImportError:
